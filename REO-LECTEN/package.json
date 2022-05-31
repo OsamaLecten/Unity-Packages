@@ -1,0 +1,18 @@
+{
+  "name": "com.lecten.reo-lecten",
+  "version": "0.0.1",
+  "displayName": "Osama Lecten",
+  "description": "Reusable stuff that I use in my work",
+  "unity": "2021.3",
+  "keywords": [
+    "Osama",
+    "Lecten",
+    "Reusable",
+    "Library"
+  ],
+  "author": {
+    "name": "Osama Hamada",
+    "email": "Osama.hamada@lecten.com"
+  },
+  "type": "library"
+}
