@@ -1,8 +1,8 @@
+using StandardAssets;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using StandardAssets;
 using UnityEngine.UI;
-
 
 public class LevelManager : MonoBehaviour
 {
@@ -31,7 +31,8 @@ public class LevelManager : MonoBehaviour
                 lvl.Remove(tutorialLevels[i]);
             }
         }
-        levelText.text = "Level " + (SA.SaveData.level + 1);
+        //levelText.text = "Level " + (SA.SaveData.level + 1);
+
     }
     private void SpawnLevel()
     {
